@@ -1,170 +1,80 @@
 ﻿#include "stack.h"
 #include "RingBuffer.h"
 #include "Security.h"
+#include "QueueRingBuffer.h"
+#include "QueueStack.h"
+#include "common.h"
+// сделать один стиль имен файлов
 #include <iostream>
+
+#ifndef SECURITY_WIN32 
+#define SECURITY_WIN32 
+
 using namespace std;
+
+enum class Menu   
+{
+    Stack           = 1,
+    RingBuffer      = 2,
+    QueueStack      = 3,
+    QueueRingBuffer = 4,
+};
 
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    Stack* stack = new Stack;
-    Ringbuffer* ringbuffer = new Ringbuffer;
-    int result = 0;
-    bool isCreateStack = true;
-
-
-    do
+    bool isCreateRingBuffer= true;
+    bool isOccupiedSpace = false;
+    int valueForMenu = 0;
+    do 
     {
-        cout << "=============================================================" << endl;
-        cout << "1 стек" << endl;
-        cout << "2 курговой буфер" << endl;
-        cout << "=============================================================" << endl;
-       // cout << endl;
+        ShowMainMenu();
         cout << "выберите номер меню ";
-        result = Security(0, 9, "  ");
-        switch (result)
-        {
-            case 1:
+          
+        valueForMenu = GetInteger();
+        switch (static_cast<Menu>(valueForMenu))
+        {     
+            case Menu::Stack:
             {
-                cout << endl;
-                cout <<" \t1) создать стек" << endl;
-                cout << "\t2) добавить элемент в стек " << endl;
-                cout << "\t3) Получение верхнего элемента стека без его удаления"<<endl;
-                cout << "\t4) Удаление элемента из стека" << endl;
-                cout << "\t5) очистка памяти стека " << endl;
-                int count = 0;
-                cout << "\tвыберите номер меню ";
-                count = Security(0, 5, "  ");
-                switch (count)
-                {
-                     case 1:
-                     {
-                         if (isCreateStack != true)
-                         {
-                             cout << "\tcтек уже инциализирован "<<endl;
-                             system("pause");
-                             break;
-                         }
-                         int data;
-                         cout << "\tведдите элемент стека ";
-                         stack->top = 0;
-                         cin >> data;
-                         CreateStack(stack, data);
-                         cout << "\tстек создан" << endl;
-                         isCreateStack = false;
-                         system("pause");
-                         break;
-                     }
-                     case 2:
-                     {
-                         if (isCreateStack)
-                         {
-                             cout <<"\tошибка!!! стек не создан" <<endl;
-                             system("pause");
-                             break;
-                         }
-                         int data;
-                         cout << "\tведдите элемент стека ";
-                         cin >> data;
-                         Push(stack, data);
-                         cout <<"\tэлемент вставлен"<<endl;
-                         system("pause");
-                         break;
-                     }
-                     case 3:
-                     {
-                         if (isCreateStack)
-                         {
-                             cout << "\tошибка!!! стек не создан" << endl;
-                             system("pause");
-                             break;
-                         }
-                         cout<<"\t"<<StackTop(stack)<<endl;
-                         system("pause");
-                         break;
-                     }
-                     case 4:
-                     {
-                         if (isCreateStack)
-                         {
-                             cout << "\tошибка!!! стек не создан" << endl;
-                             system("pause");
-                             break;
-                         }
-                         Remove(stack);
-                         cout << "элемент удален"<<endl;
-                         system("pause");
-                         break;
-                     }
-                     case 5:
-                     {
-                         if (isCreateStack)
-                         {
-                             cout << "\tошибка!!! стек не создан" << endl;
-                             system("pause");
-                             break;
-                         }
-                         СlearStack(stack, isCreateStack);
-                         if (stack->top == 0)
-                         {
-                             isCreateStack = true;
-                         }
-                         system("pause");
-                         break;
-                     }
-                }
+                    Stack* stack = new Stack;
+                    int count = 0;
+                    CreateStack(stack);
+                    ServeStack(stack);
+                    СlearStack(stack);
+                    break;
+            }
+            case Menu::RingBuffer:
+            {
+                Ringbuffer* ringBuffer = new Ringbuffer;
+                CreateRingBuffer(ringBuffer);
+                ServeRingBuffer(ringBuffer, isOccupiedSpace);
+                ClearRingBuffer(ringBuffer);
                 break;
             }
-            case 2:
+            case Menu::QueueStack:
             {
-              
-                cout << endl;
-                cout << " \t1) Функция возвращает свободное место" << endl;
-                cout << "\t2) Функция возвращает занятое место " << endl;
-                cout << "\t3) Функция добавления элемента в буфер" << endl;
-                cout << "\t4) Функция, достающая элемент из буфера" << endl;
-                int count = 0;
-                cout << "\tвыберите номер меню ";
-                count = Security(0, 5, "  ");
-                switch (count)
+                    QueueStack* queueStack = new QueueStack;
+                    Init(queueStack);
+                    ServeQueueStack(queueStack);
+                    Clear(queueStack);
+                    break;
+            }
+                case Menu::QueueRingBuffer:
                 {
-                    case 1:
-                    {
-                        cout << "\t" << GetFreeSpace(ringbuffer)<<endl;
-                        system("pause");
-                        break;
-                    }
-                    case 2:
-                    {
-                        cout << "\t" << GetOccupiedSpace(ringbuffer)<<endl;
-                        system("pause");
-                        break;
-                    }
-                    case 3:
-                    {
-                        int value;
-                        cout <<"\tведите значение" ;
-                        cin >> value;
-                        Add(ringbuffer, value);
-                        system("pause");
-                        break;
-                    }
-                    case 4:
-                    {
-                        cout<< "\t" <<Get(ringbuffer)<<endl;
-                        system("pause");
-                        break;
-                    }
+                    int value;
+                    Queue* queueBuffer = new Queue;
+                    CreateQueue(queueBuffer);
+                    ServeQueueBuffer(queueBuffer, isCreateRingBuffer);
+                    RemoveQueue(queueBuffer);
+                    break;
                 }
+            default:
+            {
+                system("cls");
                 break;
             }
-        }
-        if (result > 0)
-        {
-            system("cls");
-        }
-    } while (result != 0);
-   
-    
-
+        }    
+    } while (valueForMenu != 0);
+    return 0;
 }
+#endif

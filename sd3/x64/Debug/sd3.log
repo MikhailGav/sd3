@@ -1,0 +1,168 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(88,24): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(88,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "SEC_WCHAR"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(89,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(89,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "SEC_CHAR"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(92,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(92,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "SECURITY_STATUS"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(108,19): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(108,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(108,19): error C2378: SEC_WCHAR: переопределение; символ нельзя перегрузить typedef
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(88): message : см. объявление "SEC_WCHAR"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(108,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(109,25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(109,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "SEC_WCHAR"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(109,25): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(109,15): error C2086: int SEC_WCHAR: переопределение
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(88): message : см. объявление "SEC_WCHAR"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(109,41): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(134,23): error C3646: dwLower: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(134,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(135,23): error C3646: dwUpper: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(135,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(233,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(233,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(233,21): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(238,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(238,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(238,24): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(252,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(252,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(252,20): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(257,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(257,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(257,23): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(334,32): error C2061: синтаксическая ошибка: идентификатор "cbBuffer"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(334,34): error C2144: синтаксическая ошибка: перед "void" требуется ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(334,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(334,47): warning C4183: _Field_size_bytes_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(344,26): error C2061: синтаксическая ошибка: идентификатор "cBuffers"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(344,39): error C3646: PSecBuffer: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(344,47): error C3646: pBuffers: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(344,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(344,47): warning C4183: _Field_size_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(388,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(388,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(388,21): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(414,32): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(419,49): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(425,33): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(430,39): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(438,33): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(443,24): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(448,32): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(481,34): error C2065: ANYSIZE_ARRAY: необъявленный идентификатор
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(654,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(654,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(654,26): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(665,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(665,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(665,25): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(682,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(682,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(682,30): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(691,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(691,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(691,30): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(711,19): error C3646: Version: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(711,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(712,17): error C3646: Flags: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(712,17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(713,29): error C3646: ProxyServerOffset: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(713,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(714,29): error C3646: ProxyServerLength: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(714,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(715,31): error C3646: ClientTlsCredOffset: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(715,31): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(716,31): error C3646: ClientTlsCredLength: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(716,31): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(851,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(851,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(851,26): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(869,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(869,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(869,25): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(898,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(898,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(898,40): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(899,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(899,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(899,38): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(909,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(909,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(909,40): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(910,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(910,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(910,38): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(928,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(928,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(928,31): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(935,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(935,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(935,31): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(950,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(950,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(950,30): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(959,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(959,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(959,30): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(991,40): error C2061: синтаксическая ошибка: идентификатор "SessionKeyLength"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(991,42): error C2144: синтаксическая ошибка: перед "unsigned char" требуется ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(991,56): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(991,56): warning C4183: _Field_size_bytes_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(999,31): error C2061: синтаксическая ошибка: идентификатор "KeyLength"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(999,33): error C2144: синтаксическая ошибка: перед "unsigned char" требуется ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(999,46): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(999,46): warning C4183: _Field_size_bytes_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1002,37): error C2061: синтаксическая ошибка: идентификатор "VerifyKeyLength"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1002,39): error C2144: синтаксическая ошибка: перед "unsigned char" требуется ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1002,52): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1002,52): error C2535: int _SecPkgContext_NegoKeys::_Field_size_bytes_(void): функция-член уже определена или объявлена
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(999): message : см. объявление "_SecPkgContext_NegoKeys::_Field_size_bytes_"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1002,52): warning C4183: _Field_size_bytes_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1072,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1072,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1072,28): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1073,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1073,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1073,28): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1078,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1078,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1078,27): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1079,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1079,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1079,27): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1098,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1098,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1098,31): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1107,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1107,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1107,30): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1147,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1147,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1147,28): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,38): error C2061: синтаксическая ошибка: идентификатор "BindingsLength"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,61): error C3646: SEC_CHANNEL_BINDINGS: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,61): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,61): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,61): warning C4183: _Field_size_bytes_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,61): error C2059: синтаксическая ошибка: *
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1153,71): error C2238: непредвиденные лексемы перед ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1176,33): error C2061: синтаксическая ошибка: идентификатор "ExtensionsCount"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1176,35): error C2144: синтаксическая ошибка: перед "unsigned short" требуется ";"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1176,50): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1176,50): warning C4183: _Field_size_: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1180,27): error C3646: UserFunction: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1180,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1181,24): error C3646: Argument1: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1181,24): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1182,24): error C3646: Argument2: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1182,24): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1184,26): error C3646: ReturnToLsa: неизвестный спецификатор переопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1184,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1196,21): error C2061: синтаксическая ошибка: идентификатор "SECURITY_STATUS"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1210,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "__cdecl"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sspi.h(1210,17): fatal error C1003: число ошибок превышает 100; остановка компиляции
+  QueueRingBuffer.cpp
+  stack.cpp
+  Создание кода...

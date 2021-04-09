@@ -1,38 +1,49 @@
-#include "RingBuffer.h"
+#include "ringBuffer.h"
 
-void CreateRingBuffer(Ringbuffer* ringbuffer)
+void CreateRingBuffer(Ringbuffer* ringBuffer)
 {
-    ringbuffer->size = 256;
-    ringbuffer->data = new int[ringbuffer->size];
-    ringbuffer->freeSpace = ringbuffer->size;
-    ringbuffer->occupiedSpace = 0;
+    ringBuffer->Data = new int[ringBuffer->Size];
+    ringBuffer->FreeSpace = ringBuffer->Size;
+    ringBuffer->OccupiedSpace = 0;
 }
 
-int GetFreeSpace(Ringbuffer* ringbuffer)
+int GetFreeSpace(Ringbuffer* ringBuffer)
 {
-    return ringbuffer->size - ringbuffer->occupiedSpace;
+    return ringBuffer->Size - ringBuffer->OccupiedSpace;
 }
 
-int GetOccupiedSpace(Ringbuffer* ringbuffer)
+int GetOccupiedSpace(Ringbuffer* ringBuffer)
 {
-    return ringbuffer->occupiedSpace;
+    return ringBuffer->OccupiedSpace;
 }
 
-int Get(Ringbuffer* ringbuffer)
+int Get(Ringbuffer* ringBuffer, bool isOccupiedSpace)
 {
-    int res = ringbuffer->data[0]; 
-    for (int i = 1; i < ringbuffer->occupiedSpace; ++i)
+    int result = ringBuffer->Data[0];
+    for (int i = 1; i <= ringBuffer->OccupiedSpace; ++i)
     {
-        ringbuffer->data[i - 1] = ringbuffer->data[i];
+        ringBuffer->Data[i - 1] = ringBuffer->Data[i];
+        ringBuffer->OccupiedSpace--;
     }
-    --ringbuffer->occupiedSpace;
-    return res; 
-}
-void Add(Ringbuffer* ringbuffer, int value)
-{
-    if ((ringbuffer->size == 0) || (ringbuffer->size<0))
+    return result;
+    /*if (ringBuffer->OccupiedSpace <= 0)
     {
-        CreateRingBuffer(ringbuffer);
-    }
-    ringbuffer->data[ringbuffer->occupiedSpace++ % ringbuffer->size] = value;
+        isOccupiedSpace = true;
+        delete[] ringBuffer->Data;
+    }*/
+   
 }
+void AddRingBuffer(Ringbuffer* ringBuffer, int value)
+{
+    ringBuffer->Data[ringBuffer->OccupiedSpace++ % ringBuffer->Size] = value;
+    if (ringBuffer->OccupiedSpace > 4)
+    {
+        ringBuffer->OccupiedSpace = 4;
+    }
+}
+
+void ClearRingBuffer(Ringbuffer* ringBuffer)
+{
+    delete[] ringBuffer->Data;
+}
+

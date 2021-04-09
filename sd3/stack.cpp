@@ -1,45 +1,48 @@
 #include "stack.h"
 
 
-void CreateStack(Stack* stack, int data)
+void CreateStack(Stack* stack)
 {
-	stack->bufferCapacity = 2;
-	//stack->top = 0;
-	stack->buffer = new int[stack->bufferCapacity];
-	stack->buffer[stack->top] = data;
-	stack->top++;
+	stack->BufferCapacity = 8;
+	stack->Buffer = new int[stack->BufferCapacity];
 }
 
 void Push(Stack* stack, int data)
 {
-	if (stack->top >= stack->bufferCapacity)
+	if (stack->Top >= stack->BufferCapacity)
 	{
-		stack->bufferCapacity = stack->bufferCapacity * 2;
+		stack->BufferCapacity = stack->BufferCapacity*2;
 	}
-	stack->buffer[stack->top] = data;
-	stack->top++;
-
+	stack->Buffer[stack->Top] = data;
+	stack->Top++;
+	//int temp = stack->Top;
 }
+
 int StackTop( Stack* stack)
 {
-	return stack->buffer[stack->top - 1];
-}
-void Remove(Stack* stack)
-{
-	stack->top--;
-}
-void ÑlearStack(Stack* stack, bool isCreateStack)
-{
-	for (int i = 0; i < stack->top+1; i++)
+	if (stack->Top <= 1)
 	{
-		Remove(stack);
+		return 1;
 	}
-	if (stack->top == 0)
-	{
-		delete[] stack->buffer;
-	}
-	isCreateStack = false;
+	return stack->Buffer[stack->Top - 1];
+}
 
+bool Pop( Stack* stack, int& value )
+{
+	if ( stack->Top <= 1)
+	{
+		return false;
+	}
+
+	value = stack->Buffer[--(stack->Top)];
+
+	return true;
+}
+
+void ÑlearStack(Stack* stack)
+{
+	delete[] stack->Buffer;
+	return;
 }
 
 
